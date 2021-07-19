@@ -11,7 +11,7 @@ const phoneInputEl = document.getElementById('phoneInput');
 const emailInputEl = document.getElementById('emailInput');
 const addContactFormEl = document.getElementById('addContactBtn');
 
-addContactFormEl.addEventListener('click', addContactFormSubmit);
+addContactFormEl.addEventListener('submit', addContactFormSubmit);
 contactsListEl.addEventListener('click', onContactsListClick);
 
 let contactsList = [];
