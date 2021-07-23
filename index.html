@@ -11,26 +11,27 @@
 </head>
 
 <body>
-    <table>
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Phone</th>
-                <th>Email</th>
-                <th>Actions</th>
-            </tr>
-        </thead>
-        <tbody id="contactsList"></tbody>
-        <tfoot>
-            <tr>
-                <td><input id="nameInput" type="text"></td>
-                <td><input id="phoneInput" type="tel"></td>
-                <td><input id="emailInput" type="email"></td>
-                <td><button id="addContactBtn">Add</button></td>
-            </tr>
-        </tfoot>
-    </table>
-
+    <form action="">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="contactsList"></tbody>
+            <tfoot>
+                <tr>
+                    <td><input id="nameInput" type="text"></td>
+                    <td><input id="phoneInput" type="tel"></td>
+                    <td><input id="emailInput" type="email"></td>
+                    <td><button id="addContactBtn">Add</button></td>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
 
     <script id="newContactTemplate" type="text/template">
         <tr class = "contact-item" data-contact-id = "{{id}}">
